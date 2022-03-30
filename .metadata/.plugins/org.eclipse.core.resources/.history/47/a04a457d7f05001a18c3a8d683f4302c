@@ -1,0 +1,30 @@
+package bot;
+
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+import java.io.IOException;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException, AWTException {
+   Robot robot = new Robot();
+   
+   
+   
+   
+   
+   robot.delay(3000);
+   
+   robot.keyPress(KeyEvent.VK_A);
+   robot.keyRelease(KeyEvent.VK_A);
+   robot.delay(500);
+   robot.keyPress(KeyEvent.VK_S);
+   robot.keyRelease(KeyEvent.VK_S);
+   
+
+   
+   
+	}
+
+}

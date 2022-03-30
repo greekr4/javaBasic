@@ -1,0 +1,13 @@
+package sec1;
+
+public class exercise1 {
+
+	public static void main(String[] args) {
+		int[][] array = {
+				{1,2},{83,92,96},{78,83,93,87,88}
+				
+		};
+	
+	}
+
+}
