@@ -10,6 +10,7 @@ public class Animal2 {
 		Animal c = new Animal("바보");
 		System.out.println("");
 		
+		c.data = 10; //data 필드가 디폴트이므로 가능
 		a.running(a.getName(),a.getSpeed());
 		b.running(b.getName(),b.getSpeed());
 		c.running(c.getName(),c.getSpeed());

@@ -8,28 +8,28 @@ public class Animal {
 	private int wings;
 	private boolean spine;
 	private int speed;
-	
-	Animal()
+	int data;
+	public Animal()
 	{
 	this("동물");
 	}
-	Animal(String name)
+	public Animal(String name)
 	{
 		this(name,"알 수 없음");
 	}
-	Animal(String name, String type) {
+	public Animal(String name, String type) {
 		this(name,type,0);
 	}
-	Animal(String name, String type, int legs) {
+	public Animal(String name, String type, int legs) {
 		this(name,type,legs,0);
 	}
-	Animal(String name, String type, int legs, int wings) {
+	public Animal(String name, String type, int legs, int wings) {
 		this(name,type,legs,wings,false);
 	}
-	Animal(String name, String type, int legs, int wings, boolean spine) {
+	public Animal(String name, String type, int legs, int wings, boolean spine) {
 		this(name,type,legs,wings,spine,0);
 	}
-	Animal(String name, String type, int legs, int wings, boolean spine, int speed) {
+	public Animal(String name, String type, int legs, int wings, boolean spine, int speed) {
 		this.name = name;
 		this.type = type;
 		this.legs = legs;
