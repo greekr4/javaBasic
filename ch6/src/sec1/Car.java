@@ -12,6 +12,31 @@ public class Car {
 	private int fuel2;
 	
 	
+	public Car() {
+		this("자동차");
+	}
+	
+	public Car(String name) {
+		this(name,"승용차");
+	}
+	
+	public Car(String name, String style) {
+		this(name,style,"회사");
+	}
+	
+	public Car(String name, String style, String company) {
+		this(name,style,company,"휘발유");
+	}
+	
+	public Car(String name, String style, String company, String fuel) {
+		this(name,style,company,fuel,4);
+	}
+	public Car(String name, String style, String company, String fuel, int tire) {
+		this(name,style,company,fuel,tire,0);
+	}
+	public Car(String name, String style, String company, String fuel, int tire, int speed) {
+		this(name,style,company,fuel,tire,speed,"12-1234");
+	}
 	public Car(String name, String style, String company, String fuel, int tire, int speed, String num) {
 		this(name,style,company,fuel,tire,speed,num,0);
 	}
@@ -32,6 +57,18 @@ public class Car {
 		this.num = num;
 		this.usetime = usetime;
 		this.fuel2 = fuel2;
+		
+		System.out.println("차량 정보가 등록되었습니다.");
+		System.out.println("차이름 : "+name);
+		System.out.println("차종류 : "+style);
+		System.out.println("회사 : "+company);
+		System.out.println("연료 종류 : "+fuel);
+		System.out.println("타이어 수 : " +tire);
+		System.out.println("속도 : "+speed);
+		System.out.println("차넘버 : "+num);
+		System.out.println("주차시간 : "+usetime);
+		System.out.println("연료량 : "+fuel2);
+		
 	}
 	public void computerMoney()
 	{

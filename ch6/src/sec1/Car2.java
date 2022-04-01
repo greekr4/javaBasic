@@ -17,8 +17,10 @@ public class Car2 {
 		
 		Car a = new Car("1번차","경차","현대","휘발유");
 		a.setFuel2(10);
-		a.computerFuel(a.getFuel(),a.getFuel2());
-		a.computerMoney();
+		a.setUsetime(60);
+		System.out.println("\n");
+		a.computerFuel(a.getFuel2(),a.getFuel());
+		a.computerMoney(a.getUsetime());
 		
 		
 		
