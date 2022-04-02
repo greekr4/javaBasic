@@ -3,7 +3,8 @@ package Exercise;
 public class AccountExample {
 
 	public static void main(String[] args) {
-		Account account = new Account();
+		
+		Aaccount account = new Aaccount();
 		
 		account.setBalance(10000);
 		System.out.println("현재 잔고: "+account.getBalance());
