@@ -5,12 +5,18 @@ public class Account2 {
 	private String owner;
 	private int balance;
 	
+
+
+	
 	public Account2(String ano,String owner,int balance)
 	{
 		this.ano = ano;
 		this.owner = owner;
 		this.balance = balance;
 	}
+	
+
+	
 	public String getAno() {
 		return ano;
 	}
