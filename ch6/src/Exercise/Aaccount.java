@@ -2,8 +2,8 @@ package Exercise;
 
 public class Aaccount {
 
-	final private int MIN_BALANCE = 0;
-	final private int MAX_BALANCE = 1000000;
+	final static int MIN_BALANCE = 0;
+	final static int MAX_BALANCE = 1000000;
 	private int balance;
 	
 	

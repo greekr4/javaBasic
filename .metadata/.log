@@ -4107,3 +4107,56 @@ org.apache.http.NoHttpResponseException: platform.yatta.de:443 failed to respond
 
 !ENTRY org.eclipse.jdt.debug 2 0 2022-04-04 15:08:45.825
 !MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jface 2 0 2022-04-04 16:13:23.580
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-04 16:13:23.580
+!MESSAGE A conflict occurred for CTRL+R:
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.RunToLine,Run to Line,
+		Resume and break when execution reaches the current line,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b5b0d7f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(com.tomato.exerd.ui.commands.select,선택,
+		,
+		Category(com.tomato.exerd.ui.commands.category,eXERD Command Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@86611cd,
+		[Parameter(mode,선택 모드,null,false)],,true),[org.eclipse.core.commands.Parameterization@4f30f8d7]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.tomato.exerd.editor.DiagramEditor,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-04 16:13:23.580
+!MESSAGE A conflict occurred for F5:
+Binding(F5,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.StepInto,Step Into,
+		Step into,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5c1f1806,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+Binding(F5,
+	ParameterizedCommand(Command(org.eclipse.ui.file.refresh,Refresh,
+		Refresh the selected items,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c8c4316,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F5,
+	ParameterizedCommand(Command(com.tomato.exerd.core.ui.command.changeInteractionMode,논리 물리 모드 변경,
+		,
+		Category(com.tomato.exerd.ui.commands.category,eXERD Command Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f3f970d,
+		[Parameter(mode,인터액션 모드,null,false)],,true),[org.eclipse.core.commands.Parameterization@14b193b7]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.tomato.exerd.editor.DiagramEditor,,,system)
+
+!ENTRY org.eclipse.jdt.debug 2 0 2022-04-04 16:37:55.149
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2022-04-04 16:46:57.098
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
