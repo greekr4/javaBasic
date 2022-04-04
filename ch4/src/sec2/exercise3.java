@@ -9,6 +9,8 @@ public class exercise3 {
 			sum += i;
 		}
 		System.out.println(sum);
+		
+		
 	}
 
 }

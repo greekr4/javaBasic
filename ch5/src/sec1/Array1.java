@@ -1,5 +1,7 @@
 package sec1;
 
+import sec2.Singleton;
+
 public class Array1 {
 
 	public static void main(String[] args) {
@@ -14,7 +16,7 @@ public class Array1 {
 			tot += Arrjum[i];
 			System.out.println(tot);
 		}
-		
+
 
 	}
 
