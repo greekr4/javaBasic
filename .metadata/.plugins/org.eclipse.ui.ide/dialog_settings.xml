@@ -15,6 +15,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\WS"/>
+			<item value="C:\WS"/>
 			<item value="D:\Taek\java1\uml"/>
 			<item value="D:\Taek\java1"/>
 			<item value="D:\Taek\java1\ch2"/>
