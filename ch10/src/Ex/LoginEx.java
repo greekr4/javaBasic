@@ -1,7 +1,6 @@
 package Ex;
 
-import sec3.BalanceUnderflowException;
-import sec3.Exx;
+
 
 public class LoginEx {
 
@@ -10,6 +9,7 @@ public class LoginEx {
 			login("whith","12345");
 		} catch(Exception e) {
 			System.out.println(e.getMessage());
+			
 		}
 		
 		try {
