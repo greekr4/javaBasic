@@ -1,23 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="sec2.Week"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.rmi.server.RMIFailureHandler"/>
-    <fullyQualifiedTypeName name="sec2.Class2"/>
-    <fullyQualifiedTypeName name="sec1.Car"/>
-    <fullyQualifiedTypeName name="sec1.Car2"/>
-    <fullyQualifiedTypeName name="sec2.Class3"/>
-    <fullyQualifiedTypeName name="sec2.Class4"/>
-    <fullyQualifiedTypeName name="sec1.Animal"/>
-    <fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
-    <fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
-    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
-    <fullyQualifiedTypeName name="Exercise.Printer2"/>
-    <fullyQualifiedTypeName name="Exercise.Account2"/>
-    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>
