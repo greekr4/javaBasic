@@ -28,30 +28,30 @@ public class BankApplication {
 	System.out.print("계좌번호 입력 > ");
 	String cano = sc.next();
 	if (findAccount(cano) == -1)
-	{System.out.println("계좌를 찾을 수 없습니다.");}
+	{System.out.println("계좌를 찾을 수 없습니다.\n");}
 	else{System.out.print("입금 금액 입력 > ");
 	int depo = sc.nextInt();
 	if (depo > 0){
-	System.out.println(depo+"원 입금되었습니다.");
+	System.out.println(depo+"원 입금되었습니다.\n");
 	depo = accountArry[findAccount(cano)].getBalance() + depo;
 	accountArry[findAccount(cano)].setBalance(depo);
-	} else {System.out.println("금액을 정확하게 입력해주세요.");}}}
+	} else {System.out.println("금액을 정확하게 입력해주세요.\n");}}}
 	
 	
 	private static void withdraw() {
 	System.out.print("계좌번호 입력 > ");
 	String cano = sc.next();
 	if (findAccount(cano) == -1)
-	{System.out.println("계좌를 찾을 수 없습니다.");}
+	{System.out.println("계좌를 찾을 수 없습니다.\n");}
 	else {
 	System.out.print("출금 금액 입력 > ");
 	int with = sc.nextInt();
 	if (with > 0){if ((accountArry[findAccount(cano)].getBalance() - with) >= 0)
-	{System.out.println(with+"원 출금되었습니다.");
+	{System.out.println(with+"원 출금되었습니다.\n");
 	with = accountArry[findAccount(cano)].getBalance() - with;
 	accountArry[findAccount(cano)].setBalance(with);
-	} else {System.out.println("보유중인 금액보다 많이 출금할 수 없습니다.");}
-	} else {System.out.println("금액을 정확하게 입력해주세요.");}
+	} else {System.out.println("보유중인 금액보다 많이 출금할 수 없습니다.\n");}
+	} else {System.out.println("금액을 정확하게 입력해주세요.\n");}
 	}
 	}
 	
@@ -85,17 +85,17 @@ public class BankApplication {
 		///중복 계좌 검사
 		if (accountArry[i]!=null && accountArry[i].getAno().equals(ano2))
 		{
-		System.out.println("!!!!계좌번호 중복!!!!");
+		System.out.println("!!!!계좌번호 중복!!!!\n");
 		return;
 		}
 		if (accountArry[i]==null){
 		accountArry[i] = new Account2(ano2,owner2,bal2);
+		System.out.println("계좌가 생성되었습니다.\n");
 		return;
 		}
 		}
-		System.out.println("계좌가 생성되었습니다.");
 		}else {
-		System.out.println("금액을 정확하게 입력해주세요.");
+		System.out.println("금액을 정확하게 입력해주세요.\n");
 		}
 		
 	}
