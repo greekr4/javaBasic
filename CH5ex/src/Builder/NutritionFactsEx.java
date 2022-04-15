@@ -1,5 +1,4 @@
 package Builder;
-
 public class NutritionFactsEx {
     public static void main(String[] args) {
         NutritionFacts cocaCola = new NutritionFacts
