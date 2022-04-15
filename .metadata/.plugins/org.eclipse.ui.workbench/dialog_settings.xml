@@ -17,19 +17,31 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
+<<<<<<< HEAD
 		<item value="com.objectaid.uml.new.classdiagram" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+=======
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+>>>>>>> ff91d61657229109fe118de3ef6f6367e31d3b17
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="com.objectaid.uml.new"/>
+			<item value="org.eclipse.jdt.ui.java"/>
 		</list>
 	</section>
 	<section name="FileSystemExportWizard">
 	</section>
 	<section name="InstallationDialogSettings">
+<<<<<<< HEAD
 		<item value="700" key="DIALOG_WIDTH"/>
 		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
 		<item value="738" key="DIALOG_HEIGHT"/>
 		<item value="-30" key="DIALOG_X_ORIGIN"/>
 		<item value="-166" key="DIALOG_Y_ORIGIN"/>
+=======
+		<item key="DIALOG_WIDTH" value="700"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+		<item key="DIALOG_HEIGHT" value="738"/>
+		<item key="DIALOG_X_ORIGIN" value="-30"/>
+		<item key="DIALOG_Y_ORIGIN" value="-56"/>
+>>>>>>> ff91d61657229109fe118de3ef6f6367e31d3b17
 	</section>
 	<section name="ImportExportAction">
 		<item value="org.eclipse.jdt.internal.ui.jarpackager.JarPackageWizard" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>

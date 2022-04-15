@@ -1,2 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <qualifiedTypeNameHistroy/>
+=======
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="sec2.Week"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.rmi.server.RMIFailureHandler"/>
+    <fullyQualifiedTypeName name="sec2.Class2"/>
+    <fullyQualifiedTypeName name="sec1.Car"/>
+    <fullyQualifiedTypeName name="sec1.Car2"/>
+    <fullyQualifiedTypeName name="sec2.Class3"/>
+    <fullyQualifiedTypeName name="sec2.Class4"/>
+    <fullyQualifiedTypeName name="sec1.Animal"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+    <fullyQualifiedTypeName name="Exercise.Printer2"/>
+    <fullyQualifiedTypeName name="Exercise.Account2"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="sec0.AbtractFactory"/>
+    <fullyQualifiedTypeName name="sec0.CombatFactory"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="sec1.BeepTask"/>
+    <fullyQualifiedTypeName name="sec1.Student"/>
+</qualifiedTypeNameHistroy>
+>>>>>>> ff91d61657229109fe118de3ef6f6367e31d3b17
