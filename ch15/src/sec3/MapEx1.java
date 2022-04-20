@@ -20,7 +20,7 @@ public class MapEx1 {
 		Set<String> ketset = map.keySet();
 		Iterator<String> keyIterator = ketset.iterator();
 	
-		
+
 
 			while(keyIterator.hasNext()) {
 			String key = keyIterator.next();
@@ -28,7 +28,7 @@ public class MapEx1 {
 			System.out.println(key+"  "+value);
 		}
 		
-		
+	
 		
 
 	}
